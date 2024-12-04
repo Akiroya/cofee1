@@ -1,0 +1,9 @@
+CREATE TABLE coffee (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    roast TEXT NOT NULL,
+    form TEXT NOT NULL,
+    description TEXT,
+    price REAL NOT NULL,
+    volume INTEGER NOT NULL
+);
